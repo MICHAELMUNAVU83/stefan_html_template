@@ -4,491 +4,565 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <script src="https://cdn.tailwindcss.com"></script>
+    <link
+      href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/index.css" />
   </head>
   <body>
+    <header class="bg-white w-full">
+      <div
+        class="text-[#c69968] py-2 flex justify-between items-center px-6 sm:px-10 md:px-32 border-b w-full"
+      >
+        <p class="hidden lg:block"></p>
+        <p class="text-xs sm:text-sm md:text-base font-medium">
+          Ihre kieferorthopädische Praxis an Rhein und Ahr
+        </p>
+        <div class="flex space-x-4 text-[#c69968]">
+          <a href="/instagram" alt="Instagram" class="hover:text-gray-800">
+            insta
+          </a>
+          <a href="/facebook" alt="Facebook" class="hover:text-gray-800">
+            facebook
+          </a>
+        </div>
+      </div>
 
-    <header className="bg-white w-full">
+      <div
+        class="flex flex-row justify-center items-center py-4 sm:py-6 md:py-7 w-full text-center"
+      >
+        <img
+          src="/Images/ToothLogo.png"
+          alt="Logo"
+          class="h-12 sm:h-14 md:h-16"
+        />
+        <div class="ml-2">
+          <h1
+            class="text-lg sm:text-2xl md:text-3xl font-medium text-[#9ba99c]"
+          >
+            <b>Kieferorthopädie</b> Remagen Sinzig
+          </h1>
+          <p class="text-xs sm:text-lg md:text-xl text-[#c69968] font-medium">
+            Dr. Franziska Kroll • Dr. Miriam Vieweg
+          </p>
+        </div>
+      </div>
+    </header>
 
-        <div className="text-[#c69968] py-2 flex  justify-between items-center px-6 sm:px-10 md:px-32 border-b w-full">
-          <p className='hidden lg:block'></p>
-          <p className="text-xs sm:text-sm md:text-base font-medium">
+    <nav
+      class="bg-[#9ba99c] text-white text-sm rounded-md font-medium p-5 mx-5 my-5"
+    >
+      <ul class="flex justify-center space-x-10">
+        <li>
+          <a href="home">HOME</a>
+        </li>
+        <li>
+          <a href="services">LEISTUNGEN</a>
+        </li>
+        <li>
+          <a href="team">TEAM</a>
+        </li>
+        <li>
+          <a href="career">KARRIERE</a>
+        </li>
+        <li>
+          <a href="sos">SOS</a>
+        </li>
+        <li>
+          <a href="impresions">IMPRESSIONEN</a>
+        </li>
+        <li>
+          <a href="contact">KONTAKT</a>
+        </li>
+        <li>
+          <a href="appointments">TERMIN ONLINE BUCHEN</a>
+        </li>
+      </ul>
+    </nav>
+
+    <section>
+      <div class="flex flex-col mt-10 space-y-16 items-center">
+        <img src="/Images/ToothLogo.png" class="block w-full max-w-sm" />
+        <div class="space-y-4">
+          <h2 class="text-2xl text-[#9BA99D] font-medium text-center">
             Ihre kieferorthopädische Praxis an Rhein und Ahr
-          </p>
-          <div className="flex space-x-4 text-[#c69968]">
-            <Link to="/instagram" alt="Instagram" className="hover:text-gray-800">
-              <FaInstagram className="text-lg sm:text-xl" />
-            </Link>
-            <Link to="/facebook" alt="Facebook" className="hover:text-gray-800">
-              <FaFacebookF className="text-lg sm:text-xl" />
-            </Link>
-          </div>
+          </h2>
+          <h1 class="text-3xl text-[#c7986a] font-medium text-center max-w-4xl">
+            Mit herausnehmbaren, festsitzenden oder unsichtbaren Zahnspangen zum
+            perfekten Lächeln
+          </h1>
         </div>
-  
-     
-        <div className="flex flex-row justify-center items-center py-4 sm:py-6 md:py-7 w-full text-center">
-          <img src={ToothLogo} alt="Logo" className="h-12 sm:h-14 md:h-16" />
-          <div className="ml-2">
-            <h1 className="text-lg sm:text-2xl md:text-3xl font-medium text-[#9ba99c]">
-              <b>Kieferorthopädie</b> Remagen Sinzig
-            </h1>
-            <p className="text-xs sm:text-lg md:text-xl text-[#c69968] font-medium">
-              Dr. Franziska Kroll • Dr. Miriam Vieweg
-            </p>
-          </div>
-        </div>
-      </header>
 
+        <button variant="primary">Jetzt Termin online vereinbaren!</button>
+      </div>
+    </section>
 
+    <section class="bg-[#9ba99c] mt-12 mx-5 rounded-md">
+      <div
+        class="text-[#ffff] font-semibold mx-20 3xl:text-center py-16 space-y-10 text-lg"
+      >
+        <h3>Liebe Patientinnen und Patienten, liebe Eltern, liebe Kinder.</h3>
+        <img src="/Images/kfoline.png" class="block w-full max-w-40" />
+        <p>
+          Wir freuen uns, Sie in unserer kieferorthopädischen Praxis in Remagen
+          begrüßen zu dürfen. Als Fachpraxis bieten wir moderne, qualitativ
+          hochwertige Kieferorthopädie in angenehmer Atmosphäre. Neben unserem
+          freundlichen Team tragen auch unsere modern und hell eingerichteten
+          Räume dazu bei, dass Sie sich bei uns wohlfühlen können. Zudem ist
+          unsere Praxis klimatisiert.
+          <br />
+          <br />
+          Als Ihre Spezialisten für funktionelle und ästhetische
+          Kieferorthopädie behandeln wir Kinder, Jugendliche und Erwachsene mit
+          fachlicher Kompetenz und viel Einfühlungsvermögen.
+        </p>
+      </div>
+    </section>
 
-
-
-      <nav className="bg-[#9ba99c] text-white text-sm rounded-md font-medium p-5 mx-5 my-5">
-        <ul className="flex justify-center space-x-10">
-          <li>
-            <NavLink to="home">HOME</NavLink>
-          </li>
-          <li>
-            <NavLink to="services">LEISTUNGEN</NavLink>
-          </li>
-          <li>
-            <NavLink to="team">TEAM</NavLink>
-          </li>
-          <li>
-            <NavLink to="career">KARRIERE</NavLink>
-          </li>
-          <li>
-            <NavLink to="sos">SOS</NavLink>
-          </li>
-          <li>
-            <NavLink to="impresions">IMPRESSIONEN</NavLink>
-          </li>
-          <li>
-            <NavLink to="contact">KONTAKT</NavLink>
-          </li>
-          <li>
-            <NavLink to="appointments">TERMIN ONLINE BUCHEN</NavLink>
-          </li>
-        </ul>
-      </nav>
-
-
-      <section>
-        <div className="flex flex-col mt-10 space-y-16 items-center">
-          <img src={ToothLogo} className="block w-full max-w-sm" />
-          <div className="space-y-4">
-            <h2 className="text-2xl text-[#9BA99D] font-medium text-center">
-              Ihre kieferorthopädische Praxis an Rhein und Ahr
-            </h2>
-            <h1 className="text-3xl text-[#c7986a] font-medium text-center max-w-4xl">
-              Mit herausnehmbaren, festsitzenden oder unsichtbaren Zahnspangen zum
-              perfekten Lächeln
-            </h1>
-          </div>
-  
-          <Button variant="primary">Jetzt Termin online vereinbaren!</Button>
-        </div>
-      </section>
-
-
-
-      <section className="bg-[#9ba99c] mt-12 mx-5 rounded-md">
-        <div className="text-[#ffff] font-semibold mx-20 3xl:text-center  py-16 space-y-10 text-lg">
-          <h3>Liebe Patientinnen und Patienten, liebe Eltern, liebe Kinder.</h3>
-          <img src={kfoline} className="block w-full max-w-40  " />
-          <p>
-            Wir freuen uns, Sie in unserer kieferorthopädischen Praxis in Remagen
-            begrüßen zu dürfen. Als Fachpraxis bieten wir moderne, qualitativ
-            hochwertige Kieferorthopädie in angenehmer Atmosphäre. Neben unserem
-            freundlichen Team tragen auch unsere modern und hell eingerichteten
-            Räume dazu bei, dass Sie sich bei uns wohlfühlen können. Zudem ist
-            unsere Praxis klimatisiert.
-            <br />
-            <br />
-            Als Ihre Spezialisten für funktionelle und ästhetische
-            Kieferorthopädie behandeln wir Kinder, Jugendliche und Erwachsene mit
-            fachlicher Kompetenz und viel Einfühlungsvermögen.
-          </p>
-        </div>
-      </section>
-
-
-      <section className="py-12 md:py-24 mt-12 bg-[#ededed]">
-        <div className="mx-5 flex flex-col lg:flex-row ">
-          <div className="w-full lg:w-1/2 bg-[#ededed] font-medium">
-            <div className="flex justify-center mt-12 mb-8">
-              <img
-                src={ToothLogo}
-                className="block w-full max-w-20 sm:max-w-24 md:max-w-32 lg:max-w-40"
-              />
-            </div>
-            <div className="mx-4 sm:mx-12 space-y-6 sm:space-y-8 text-[#9ba99c] text-lg md:text-xl">
-              <h5 className="text-base md:text-lg">TEAM</h5>
-              <h2 className="text-2xl md:text-3xl">Lernen Sie uns kennen!</h2>
-              <img src={kfoline} className="block w-full max-w-20 sm:max-w-24 md:max-w-32 lg:max-w-40" />
-              <p className="text-sm sm:text-base md:text-lg">
-                Unsere individuell auf Sie oder Ihr Kind abgestimmten und
-                qualitativ hochwertigen Behandlungsmittel reichen von
-                herausnehmbaren Zahnspangen über klassische feste Zahnspangen bis
-                hin zu beinahe unsichtbaren Behandlungsmöglichkeiten (Aligner und
-                innenliegende Zahnspangen).
-              </p>
-              <p className="text-sm sm:text-base md:text-lg">
-                Zudem bieten wir Unterkieferprotrusionsschienen zur Reduktion des
-                nächtlichen Schnarchens, professionellen Sportmundschutz für
-                Kontaktsportarten sowie die Behandlung von
-                Kiefergelenksbeschwerden. Sprechen Sie uns gerne an!
-              </p>
-              <button className="px-4 py-3 text-white bg-[#9ba99c] rounded-lg text-sm md:text-base">
-                Mehr über uns ...
-              </button>
-            </div>
-          </div>
-          <div className="w-full lg:w-1/2 mt-8 lg:mt-0">
+    <section class="py-12 md:py-24 mt-12 bg-[#ededed]">
+      <div class="mx-5 flex flex-col lg:flex-row">
+        <div class="w-full lg:w-1/2 bg-[#ededed] font-medium">
+          <div class="flex justify-center mt-12 mb-8">
             <img
-              src={karolina}
-              className="block w-full h-auto max-h-[50vh] md:max-h-[75vh] lg:max-h-screen object-cover"
+              src="/Images/ToothLogo.png"
+              class="block w-full max-w-20 sm:max-w-24 md:max-w-32 lg:max-w-40"
             />
           </div>
-        </div>
-      </section>
-
-
-
-      <section className="mt-8 sm:mt-12 md:mt-16 lg:mt-20 xl:mt-24">
-        <div className="px-5 sm:px-5 md:px-8 lg:px-12 xl:px-16 ">
-          <div className="flex flex-col lg:flex-row lg:items-start">
-            <div className="lg:w-1/2 max-w-3xl mx-auto lg:mx-0">
-              <div className="text-[#9ba99c] space-y-3 sm:space-y-4 md:space-y-5">
-                <h5 className="text-sm sm:text-base md:text-lg lg:text-xl">PRAXIS-INFORMATION</h5>
-                <h2 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl lg:w-[90%] xl:w-[80%]">
-                  Digitale Kieferorthopädie: Ihr Vorteil
-                </h2>
-              </div>
-              <img
-                src={ToothLogo}
-                className="block w-20 sm:w-24 md:w-32 lg:w-40 xl:w-48 mt-6 sm:mt-8 md:mt-10 mx-auto lg:mx-0"
-                alt="Tooth Logo"
-              />
-            </div>
-            <div className="lg:w-1/2 mt-8 lg:mt-0">
-              <p className="text-[#626262] w-[90%] text-sm sm:text-base md:text-lg lg:text-xl mb-8 sm:mb-10 md:mb-12 lg:mb-16">
-                Moderne digitale Medizintechnik gehört zu den Highlights unserer
-                Praxis, denn sie tragen zu einem hohen Patientenkomfort bei. So
-                besteht z.B. die Möglichkeit den klassischen Kieferabdruck durch
-                einen Scan der Zähne zu ersetzen. Zudem röntgen wir durch neueste
-                digitale Verfahren so strahlenarm wie möglich. Gewonnene Daten
-                können digital schneller bearbeitet werden („Digitaler Workflow&quot;)
-                und die Praxis arbeitet meist deutlich umweltfreundlicher, da
-                weniger Materialien verbraucht werden.
-              </p>
-              <div className="flex flex-col space-y-6 sm:space-y-8 lg:space-y-0 lg:flex-row lg:space-x-6 xl:space-x-8">
-                <div className="space-y-3 sm:space-y-4 md:space-y-6 lg:w-1/2">
-                  <h3 className="text-[#C79C69] text-lg sm:text-xl md:text-2xl lg:text-3xl">
-                    Ein strahlendes Lächeln mit geraden, schönen Zähnen ...
-                  </h3>
-                  <p className="text-sm sm:text-base md:text-lg w-full lg:w-[90%] xl:w-[85%]">
-                    ... signalisiert Gesundheit und beeinflusst das eigene
-                    Wohlbefinden, das Selbstbewusstsein und damit auch die
-                    persönliche Ausstrahlung.
-                  </p>
-                </div>
-                <div className="space-y-3 sm:space-y-4 md:space-y-6 lg:w-1/2">
-                  <h3 className="text-[#C79C69] text-lg sm:text-xl md:text-2xl lg:text-3xl">
-                    Wir legen großen Wert ...
-                  </h3>
-                  <p className="text-sm sm:text-base md:text-lg w-full lg:w-[95%] xl:w-[90%]">
-                    ... auf eine enge Zusammenarbeit mit dem überweisenden
-                    Zahnarzt und anderen Fachkollegen. Auf diese Weise können wir
-                    individuell auf Sie zugeschnittene Behandlungskonzepte
-                    erarbeiten und umsetzen.
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-          <button className="w-full py-3 sm:py-4 bg-[#9ba99c] text-white rounded-lg mt-8 sm:mt-10 md:mt-12 lg:mt-16 xl:mt-20 text-sm sm:text-base md:text-lg lg:text-xl">
-            Erfahren Sie mehr über unser Leistungsspektrum
-          </button>
-        </div>
-      </section>
-
-
-      <section className="mx-4 sm:mx-8 md:mx-16 my-16">
-        <div className="space-y-8">
-          <h2 className="text-lg text-[#a3ab9e] font-medium">
-            PATIENTEN-INFORMATION
-          </h2>
-          <h1 className="text-2xl sm:text-3xl md:text-4xl text-[#a3ab9e] font-semibold">
-            Unser Leistungsspektrum umfasst:
-          </h1>
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-            <div className="p-6 bg-[#ebe8e3] rounded-lg flex flex-col h-full">
-              <img
-                src={removebraces}
-                alt="Herausnehmbare Zahnspangen für Kinder"
-                className="w-full h-48 object-cover mb-5"
-              />
-              <div className="h-20 mb-4">
-                <p className="text-[#a3ab9e] text-xl font-semibold">
-                  Herausnehmbare Zahnspangen für Kinder
-                </p>
-              </div>
-              <img src={kfoline} className="block w-20 mb-5" alt="Decorative line" />
-              <p className="text-lg text-[#626262] flex-grow mb-6">
-                sind die häufigsten Behandlungsgeräte bei Kindern. Mit ihnen kann
-                das natürliche Kieferwachstum genutzt werden, um die
-                Kieferstellung zu optimieren. Auch kleinere Zahnkorrekturen sind
-                damit möglich.
-              </p>
-              <Button variant="secondary">Mehr erfahren ...</Button>
-            </div>
-  
-            <div className="p-6 bg-[#e5ddd2] rounded-lg flex flex-col h-full">
-              <img
-                src={fixedbraces}
-                alt="Festsitzende Zahnspangen für Jugendliche und Erwachsene"
-                className="w-full h-48 object-cover mb-5"
-              />
-              <div className="h-20 mb-4">
-                <p className="text-[#c8b07b] text-xl font-semibold">
-                  Festsitzende Zahnspangen für Jugendliche und Erwachsene
-                </p>
-              </div>
-              <img src={kfoline} className="block w-20 mb-5" alt="Decorative line" />
-              <p className="text-lg text-[#626262] flex-grow mb-6">
-                kommen zum Einsatz, wenn alle bleibenden Zähne durchgebrochen
-                sind. Mit dieser altbewährten Methode lassen sich auch
-                komplizierte Zahnfehlstellungen medizinisch und ästhetisch
-                korrigieren, da die Spange 24 Stunden auf die Zähne einwirkt.
-              </p>
-              <Button variant="secondary">Mehr erfahren ...</Button>
-            </div>
-  
-            <div className="p-6 bg-[#ebe8e3] rounded-lg flex flex-col h-full">
-              <img
-                src={adultBraces}
-                alt="KFO-Praxis für Alignerbehandlungen und Lingualbehandlungen"
-                className="w-full h-48 object-cover mb-5"
-              />
-              <div className="h-20 mb-4">
-                <p className="text-[#a3ab9e] text-xl font-semibold">
-                  Diese KFO-Praxis ist qualifiziert für Alignerbehandlungen und
-                  Lingualbehandlungen.
-                </p>
-              </div>
-              <img src={kfoline} className="block w-20 mb-5" alt="Decorative line" />
-              <p className="text-lg text-[#626262] flex-grow mb-6">
-                Die linguale Zahnspange befindet sich auf der Innenseite der Zähne
-                und ist somit von außen nahezu unsichtbar. Diese innenliegende
-                Zahnspange wirkt wie die „normale&quot; feste Zahnspange 24 Stunden am
-                Tag auf die Zähne ein.
-              </p>
-              <Button variant="secondary">Mehr erfahren ...</Button>
-            </div>
-  
-            <div className="p-6 bg-[#e8eae9] col-span-1 lg:col-span-2 rounded-lg flex flex-col h-full">
-              <img
-                src={image1}
-                alt="Zahnkorrekturen mit unsichtbaren Zahnspangen"
-                className="w-full max-w-96 mb-5"
-              />
-              <div className="h-20 mb-4">
-                <p className="text-[#a3ab9e] text-xl font-semibold">
-                  Zahnkorrekturen mit unsichtbaren Zahnspangen
-                </p>
-              </div>
-              <img src={kfoline} className="block w-20 mb-5" alt="Decorative line" />
-              <p className="text-lg text-[#626262] flex-grow mb-6">
-                Als Alternative zur festen Zahnspange bietet Ihnen unsere
-                kieferorthopädische Praxis in Remagen die unauffällige und praktische 
-                Zahnkorrektur mit durchsichtigen, herausnehmbaren Zahnschienen 
-                (sogenannten Alignern). Aligner sind dünne, hochtransparente
-                Kunststoffschienen.
-              </p>
-              <Button variant="secondary">Mehr erfahren ...</Button>
-            </div>
-  
-            <div className="p-6 bg-[#e5ddd2] rounded-lg flex flex-col h-full">
-              <img
-                src={image2}
-                alt="Sportmundschutz für Jugendliche und Erwachsene"
-                className="w-full h-48 object-cover mb-5"
-              />
-              <div className="h-20 mb-4">
-                <p className="text-[#c59e6a] text-xl font-semibold">
-                  Sportmundschutz für Jugendliche und Erwachsene
-                </p>
-              </div>
-              <img src={kfoline} className="block w-20 mb-5" alt="Decorative line" />
-              <p className="text-lg text-[#626262] flex-grow mb-6">
-                Bei Kontaktsportarten oder Sportarten mit hohem Sturz- und
-                Verletzungsrisiko kann es schnell zu Unfällen kommen – und nicht
-                selten sind auch die Zähne betroffen. Daher empfehlen wir einen
-                individuellen Sportmundschutz.
-              </p>
-              <Button variant="secondary">Mehr erfahren ...</Button>
-            </div>
-  
-            <div className="p-6 bg-[#e5ddd2] rounded-lg flex flex-col h-full">
-              <img
-                src={image3}
-                alt="Behandlung von Kieferfehlstellungen"
-                className="w-full h-48 object-cover mb-5"
-              />
-              <div className="h-20 mb-4">
-                <p className="text-[#c59e6a] text-xl font-semibold">
-                  Behandlung von Kieferfehlstellungen in Zusammenarbeit mit
-                  chirurgischen Praxen
-                </p>
-              </div>
-              <img src={kfoline} className="block w-20 mb-5" alt="Decorative line" />
-              <p className="text-lg text-[#626262] flex-grow mb-6">
-                Liegen Kieferfehlstellungen in ausgeprägter Form vor und / oder
-                ist das Körperwachstum abgeschlossen, reicht eine rein
-                kieferorthopädische Behandlung oft nicht mehr aus, um eine
-                gesunde, physiologische Verzahnung zu erreichen. Dann wird in
-                enger Zusammenarbeit mit einem ...
-              </p>
-              <Button variant="secondary">Mehr erfahren ...</Button>
-            </div>
-  
-            <div className="p-6 bg-[#e5ddd2] col-span-1 lg:col-span-2 rounded-lg flex flex-col h-full">
-              <img
-                src={image4}
-                alt="Schnarchtherapie"
-                className="w-full max-w-96 mb-5"
-              />
-              <div className="h-20 mb-4">
-                <p className="text-[#a3ab9e] text-xl font-semibold">
-                  Schnarchtherapie <b>für einen gesunden Schlaf</b>
-                </p>
-              </div>
-              <img src={kfoline} className="block w-20 mb-5" alt="Decorative line" />
-              <p className="text-lg text-[#626262] flex-grow mb-6">
-                Bei nächtlichem Schnarchen oder Schlafapnoen kann die
-                Unterkieferprotrusionsschiene häufig Erleichterung bringen. Wenn
-                Sie zu einer der Risikogruppen für Schnarchen oder Apnoen gehören
-                oder unter Symptomen wie ...
-              </p>
-              <Button variant="secondary">Mehr erfahren ...</Button>
-            </div>
+          <div
+            class="mx-4 sm:mx-12 space-y-6 sm:space-y-8 text-[#9ba99c] text-lg md:text-xl"
+          >
+            <h5 class="text-base md:text-lg">TEAM</h5>
+            <h2 class="text-2xl md:text-3xl">Lernen Sie uns kennen!</h2>
+            <img
+              src="/Images/kfoline.png"
+              class="block w-full max-w-20 sm:max-w-24 md:max-w-32 lg:max-w-40"
+            />
+            <p class="text-sm sm:text-base md:text-lg">
+              Unsere individuell auf Sie oder Ihr Kind abgestimmten und
+              qualitativ hochwertigen Behandlungsmittel reichen von
+              herausnehmbaren Zahnspangen über klassische feste Zahnspangen bis
+              hin zu beinahe unsichtbaren Behandlungsmöglichkeiten (Aligner und
+              innenliegende Zahnspangen).
+            </p>
+            <p class="text-sm sm:text-base md:text-lg">
+              Zudem bieten wir Unterkieferprotrusionsschienen zur Reduktion des
+              nächtlichen Schnarchens, professionellen Sportmundschutz für
+              Kontaktsportarten sowie die Behandlung von
+              Kiefergelenksbeschwerden. Sprechen Sie uns gerne an!
+            </p>
+            <button
+              class="px-4 py-3 text-white bg-[#9ba99c] rounded-lg text-sm md:text-base"
+            >
+              Mehr über uns ...
+            </button>
           </div>
         </div>
-      </section>
+        <div class="w-full lg:w-1/2 mt-8 lg:mt-0">
+          <img
+            src="/Images/karolina.png"
+            class="block w-full h-auto max-h-[50vh] md:max-h-[75vh] lg:max-h-screen object-cover"
+          />
+        </div>
+      </div>
+    </section>
 
-
-      <section className="bg-[#eeeeee] pt-16 pb-32">
-        <div className="mx-5 md:mx-16 flex flex-col md:flex-row space-y-12 md:space-y-0 md:space-x-8">
-          <div className="w-full md:w-3/4">
-            <h2 className="text-[#9dab9d] text-lg sm:text-xl font-medium uppercase mb-4">
-              Ihr Kontakt zu uns
-            </h2>
-            <p className="text-[#9dab9d] text-base sm:text-lg md:text-xl lg:text-2xl font-medium mb-6 md:w-[85%]">
-              Wir freuen uns auf Ihre Terminvereinbarungen und Ihren Besuch in
-              unserer Praxis für Kieferorthopädie:
+    <section class="mt-8 sm:mt-12 md:mt-16 lg:mt-20 xl:mt-24">
+      <div class="px-5 sm:px-5 md:px-8 lg:px-12 xl:px-16">
+        <div class="flex flex-col lg:flex-row lg:items-start">
+          <div class="lg:w-1/2 max-w-3xl mx-auto lg:mx-0">
+            <div class="text-[#9ba99c] space-y-3 sm:space-y-4 md:space-y-5">
+              <h5 class="text-sm sm:text-base md:text-lg lg:text-xl">
+                PRAXIS-INFORMATION
+              </h5>
+              <h2
+                class="text-xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl lg:w-[90%] xl:w-[80%]"
+              >
+                Digitale Kieferorthopädie: Ihr Vorteil
+              </h2>
+            </div>
+            <img
+              src="/Images/ToothLogo.png"
+              class="block w-20 sm:w-24 md:w-32 lg:w-40 xl:w-48 mt-6 sm:mt-8 md:mt-10 mx-auto lg:mx-0"
+              alt="Tooth Logo"
+            />
+          </div>
+          <div class="lg:w-1/2 mt-8 lg:mt-0">
+            <p
+              class="text-[#626262] w-[90%] text-sm sm:text-base md:text-lg lg:text-xl mb-8 sm:mb-10 md:mb-12 lg:mb-16"
+            >
+              Moderne digitale Medizintechnik gehört zu den Highlights unserer
+              Praxis, denn sie tragen zu einem hohen Patientenkomfort bei. So
+              besteht z.B. die Möglichkeit den klassischen Kieferabdruck durch
+              einen Scan der Zähne zu ersetzen. Zudem röntgen wir durch neueste
+              digitale Verfahren so strahlenarm wie möglich. Gewonnene Daten
+              können digital schneller bearbeitet werden („Digitaler
+              Workflow&quot;) und die Praxis arbeitet meist deutlich
+              umweltfreundlicher, da weniger Materialien verbraucht werden.
             </p>
-  
-            <div className="flex items-center mb-8">
-              <div className="p-4 rounded-full bg-[#d3e2cf] mr-2">
-                <FaPhoneAlt className="text-gray-500" />
-              </div>
-              <div className="ml-4 mt-5">
-                <h4 className="text-lg sm:text-xl md:text-2xl text-[#c19e78] mb-1">
-                  02642 9931-270
-                </h4>
-                <p className="text-gray-800">
-                  Während unserer Sprech- und Öffnungszeiten
-                </p>
-              </div>
-            </div>
-            <div className="ml-4 md:ml-16 mb-8">
-              <Button variant="primary">Jetzt Termin online vereinbaren!</Button>
-            </div>
-  
-            <div className="flex items-center">
-              <div className="p-4 rounded-full bg-[#d3e2cf] mr-2">
-                <FaFax className="text-gray-500" />
-              </div>
-              <div className="ml-4">
-                <h4 className="text-lg sm:text-xl md:text-2xl text-[#9dab9d] font-medium mb-1">
-                  02642 9931-274
-                </h4>
-                <p className="text-gray-800">Für Telefax-Dokumente</p>
-              </div>
-            </div>
-            <div className="flex items-start my-8">
-              <div className="p-4 rounded-full bg-[#d3e2cf] mr-2">
-                <FaEnvelope className="text-gray-500" />
-              </div>
-              <div className="ml-4">
-                <h4 className="text-lg sm:text-xl md:text-2xl text-[#c19e78] mb-1">
-                  praxis@kfo-remagen-sinzig.de
-                </h4>
-                <p className="text-gray-800">
-                  Für die schriftliche Korrespondenz mit uns per E-Mail.
-                </p>
-              </div>
-            </div>
-            <h3 className="text-[#9dab9d] text-lg sm:text-xl font-medium uppercase mb-4">
-              So finden Sie uns
-            </h3>
-            <p className="text-gray-800 md:w-[85%] mb-6">
-              Sie finden unsere Praxis in fußläufiger Entfernung zum Remagener
-              Bahnhof in der Karmeliterstraße. Entsprechend sind wir sowohl mit
-              öffentlichen Verkehrsmitteln als auch mit dem Auto gut erreichbar.
-              Parken Sie bequem und kostenlos direkt vor der Praxis.
-            </p>
-            <div className="flex items-center">
-              <div className="p-4 rounded-full bg-[#d3e2cf] mr-2">
-                <FaMapMarkerAlt className="text-gray-500" />
-              </div>
-              <div className="ml-2">
-                <h3 className="text-[#9dab9d] text-lg sm:text-xl font-medium uppercase mb-1">
-                  Orthodontics Remagen Sinzig
+            <div
+              class="flex flex-col space-y-6 sm:space-y-8 lg:space-y-0 lg:flex-row lg:space-x-6 xl:space-x-8"
+            >
+              <div class="space-y-3 sm:space-y-4 md:space-y-6 lg:w-1/2">
+                <h3
+                  class="text-[#C79C69] text-lg sm:text-xl md:text-2xl lg:text-3xl"
+                >
+                  Ein strahlendes Lächeln mit geraden, schönen Zähnen ...
                 </h3>
-                <p className="text-[#c19e78] text-base sm:text-lg font-medium">
-                  Dr. Franziska Kroll & Dr. Miriam Vieweg
+                <p
+                  class="text-sm sm:text-base md:text-lg w-full lg:w-[90%] xl:w-[85%]"
+                >
+                  ... signalisiert Gesundheit und beeinflusst das eigene
+                  Wohlbefinden, das Selbstbewusstsein und damit auch die
+                  persönliche Ausstrahlung.
                 </p>
-                <p className="text-gray-900">Karmeliterstraße 11</p>
-                <p className="text-gray-900">53424 Remagen</p>
+              </div>
+              <div class="space-y-3 sm:space-y-4 md:space-y-6 lg:w-1/2">
+                <h3
+                  class="text-[#C79C69] text-lg sm:text-xl md:text-2xl lg:text-3xl"
+                >
+                  Wir legen großen Wert ...
+                </h3>
+                <p
+                  class="text-sm sm:text-base md:text-lg w-full lg:w-[95%] xl:w-[90%]"
+                >
+                  ... auf eine enge Zusammenarbeit mit dem überweisenden
+                  Zahnarzt und anderen Fachkollegen. Auf diese Weise können wir
+                  individuell auf Sie zugeschnittene Behandlungskonzepte
+                  erarbeiten und umsetzen.
+                </p>
               </div>
             </div>
           </div>
-  
-          <div className="flex flex-col items-center md:items-start md:space-y-6 w-full md:w-1/4">
-            <div className="mb-4 md:mb-0">
-              <img src={ToothLogo} className="block w-full max-w-48" />
+        </div>
+        <button
+          class="w-full py-3 sm:py-4 bg-[#9ba99c] text-white rounded-lg mt-8 sm:mt-10 md:mt-12 lg:mt-16 xl:mt-20 text-sm sm:text-base md:text-lg lg:text-xl"
+        >
+          Erfahren Sie mehr über unser Leistungsspektrum
+        </button>
+      </div>
+    </section>
+
+    <section class="mx-4 sm:mx-8 md:mx-16 my-16">
+      <div class="space-y-8">
+        <h2 class="text-lg text-[#a3ab9e] font-medium">
+          PATIENTEN-INFORMATION
+        </h2>
+        <h1
+          class="text-2xl sm:text-3xl md:text-4xl text-[#a3ab9e] font-semibold"
+        >
+          Unser Leistungsspektrum umfasst:
+        </h1>
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+          <div class="p-6 bg-[#ebe8e3] rounded-lg flex flex-col h-full">
+            <img
+              src="/Images/removebraces.png"
+              alt="Herausnehmbare Zahnspangen für Kinder"
+              class="w-full h-48 object-cover mb-5"
+            />
+            <div class="h-20 mb-4">
+              <p class="text-[#a3ab9e] text-xl font-semibold">
+                Herausnehmbare Zahnspangen für Kinder
+              </p>
             </div>
-            <h3 className="text-[#9dab9d] text-lg sm:text-xl uppercase mb-4">
-              Öffnungszeiten
-            </h3>
-            <div className="mb-6 ">
-              <p className="text-[#c19e78] text-lg sm:text-xl mb-4">
-                Montag bis Donnerstag
-              </p>
-              <p className="text-[#9dab9d] text-base sm:text-lg font-medium">
-                08:15 – 12:15 Uhr
-              </p>
-              <p className="text-[#9dab9d] text-base sm:text-lg font-medium">
-                13:15 – 17:45 Uhr
-              </p>
-              <p className="text-[#c19e78] text-lg sm:text-xl mt-3">Freitag</p>
-              <p className="text-[#9dab9d] font-medium text-base sm:text-lg">
-                nach Vereinbarung
+            <img
+              src="/Images/kfoline.png"
+              class="block w-20 mb-5"
+              alt="Decorative line"
+            />
+            <p class="text-lg text-[#626262] flex-grow mb-6">
+              sind die häufigsten Behandlungsgeräte bei Kindern. Mit ihnen kann
+              das natürliche Kieferwachstum genutzt werden, um die
+              Kieferstellung zu optimieren. Auch kleinere Zahnkorrekturen sind
+              damit möglich.
+            </p>
+            <button variant="secondary">Mehr erfahren ...</button>
+          </div>
+
+          <div class="p-6 bg-[#e5ddd2] rounded-lg flex flex-col h-full">
+            <img
+              src="/Images/fixedbraces.png"
+              alt="Festsitzende Zahnspangen für Jugendliche und Erwachsene"
+              class="w-full h-48 object-cover mb-5"
+            />
+            <div class="h-20 mb-4">
+              <p class="text-[#c8b07b] text-xl font-semibold">
+                Festsitzende Zahnspangen für Jugendliche und Erwachsene
               </p>
             </div>
-  
-            <div className="mb-4 md:mb-0">
-              <img src={sticker1} className="block w-full max-w-72" />
+            <img
+              src="/Images/kfoline.png"
+              class="block w-20 mb-5"
+              alt="Decorative line"
+            />
+            <p class="text-lg text-[#626262] flex-grow mb-6">
+              kommen zum Einsatz, wenn alle bleibenden Zähne durchgebrochen
+              sind. Mit dieser altbewährten Methode lassen sich auch
+              komplizierte Zahnfehlstellungen medizinisch und ästhetisch
+              korrigieren, da die Spange 24 Stunden auf die Zähne einwirkt.
+            </p>
+            <button variant="secondary">Mehr erfahren ...</button>
+          </div>
+
+          <div class="p-6 bg-[#ebe8e3] rounded-lg flex flex-col h-full">
+            <img
+              src="/Images/adultBraces.png"
+              alt="KFO-Praxis für Alignerbehandlungen und Lingualbehandlungen"
+              class="w-full h-48 object-cover mb-5"
+            />
+            <div class="h-20 mb-4">
+              <p class="text-[#a3ab9e] text-xl font-semibold">
+                Diese KFO-Praxis ist qualifiziert für Alignerbehandlungen und
+                Lingualbehandlungen.
+              </p>
             </div>
-            <div className="mb-4 md:mb-0">
-              <img src={sticker2} className="block w-full max-w-56" />
+            <img
+              src="/Images/kfoline.png"
+              class="block w-20 mb-5"
+              alt="Decorative line"
+            />
+            <p class="text-lg text-[#626262] flex-grow mb-6">
+              Die linguale Zahnspange befindet sich auf der Innenseite der Zähne
+              und ist somit von außen nahezu unsichtbar. Diese innenliegende
+              Zahnspange wirkt wie die „normale&quot; feste Zahnspange 24
+              Stunden am Tag auf die Zähne ein.
+            </p>
+            <button variant="secondary">Mehr erfahren ...</button>
+          </div>
+
+          <div
+            class="p-6 bg-[#e8eae9] col-span-1 lg:col-span-2 rounded-lg flex flex-col h-full"
+          >
+            <img
+              src="/Images/image1.png"
+              alt="Zahnkorrekturen mit unsichtbaren Zahnspangen"
+              class="w-full max-w-96 mb-5"
+            />
+            <div class="h-20 mb-4">
+              <p class="text-[#a3ab9e] text-xl font-semibold">
+                Zahnkorrekturen mit unsichtbaren Zahnspangen
+              </p>
+            </div>
+            <img
+              src="/Images/kfoline.png"
+              class="block w-20 mb-5"
+              alt="Decorative line"
+            />
+            <p class="text-lg text-[#626262] flex-grow mb-6">
+              Als Alternative zur festen Zahnspange bietet Ihnen unsere
+              kieferorthopädische Praxis in Remagen die unauffällige und
+              praktische Zahnkorrektur mit durchsichtigen, herausnehmbaren
+              Zahnschienen (sogenannten Alignern). Aligner sind dünne,
+              hochtransparente Kunststoffschienen.
+            </p>
+            <button variant="secondary">Mehr erfahren ...</button>
+          </div>
+
+          <div class="p-6 bg-[#e5ddd2] rounded-lg flex flex-col h-full">
+            <img
+              src="/Images/image2.png"
+              alt="Sportmundschutz für Jugendliche und Erwachsene"
+              class="w-full h-48 object-cover mb-5"
+            />
+            <div class="h-20 mb-4">
+              <p class="text-[#c59e6a] text-xl font-semibold">
+                Sportmundschutz für Jugendliche und Erwachsene
+              </p>
+            </div>
+            <img
+              src="/Images/kfoline.png"
+              class="block w-20 mb-5"
+              alt="Decorative line"
+            />
+            <p class="text-lg text-[#626262] flex-grow mb-6">
+              Bei Kontaktsportarten oder Sportarten mit hohem Sturz- und
+              Verletzungsrisiko kann es schnell zu Unfällen kommen – und nicht
+              selten sind auch die Zähne betroffen. Daher empfehlen wir einen
+              individuellen Sportmundschutz.
+            </p>
+            <button variant="secondary">Mehr erfahren ...</button>
+          </div>
+
+          <div class="p-6 bg-[#e5ddd2] rounded-lg flex flex-col h-full">
+            <img
+              src="/Images/image3.png"
+              alt="Behandlung von Kieferfehlstellungen"
+              class="w-full h-48 object-cover mb-5"
+            />
+            <div class="h-20 mb-4">
+              <p class="text-[#c59e6a] text-xl font-semibold">
+                Behandlung von Kieferfehlstellungen in Zusammenarbeit mit
+                chirurgischen Praxen
+              </p>
+            </div>
+            <img
+              src="/Images/kfoline.png"
+              class="block w-20 mb-5"
+              alt="Decorative line"
+            />
+            <p class="text-lg text-[#626262] flex-grow mb-6">
+              Liegen Kieferfehlstellungen in ausgeprägter Form vor und / oder
+              ist das Körperwachstum abgeschlossen, reicht eine rein
+              kieferorthopädische Behandlung oft nicht mehr aus, um eine
+              gesunde, physiologische Verzahnung zu erreichen. Dann wird in
+              enger Zusammenarbeit mit einem ...
+            </p>
+            <button variant="secondary">Mehr erfahren ...</button>
+          </div>
+
+          <div
+            class="p-6 bg-[#e5ddd2] col-span-1 lg:col-span-2 rounded-lg flex flex-col h-full"
+          >
+            <img
+              src="/Images/image4.png"
+              alt="Schnarchtherapie"
+              class="w-full max-w-96 mb-5"
+            />
+            <div class="h-20 mb-4">
+              <p class="text-[#a3ab9e] text-xl font-semibold">
+                Schnarchtherapie <b>für einen gesunden Schlaf</b>
+              </p>
+            </div>
+            <img
+              src="/Images/kfoline.png"
+              class="block w-20 mb-5"
+              alt="Decorative line"
+            />
+            <p class="text-lg text-[#626262] flex-grow mb-6">
+              Bei nächtlichem Schnarchen oder Schlafapnoen kann die
+              Unterkieferprotrusionsschiene häufig Erleichterung bringen. Wenn
+              Sie zu einer der Risikogruppen für Schnarchen oder Apnoen gehören
+              oder unter Symptomen wie ...
+            </p>
+            <button variant="secondary">Mehr erfahren ...</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="bg-[#eeeeee] pt-16 pb-32">
+      <div
+        class="mx-5 md:mx-16 flex flex-col md:flex-row space-y-12 md:space-y-0 md:space-x-8"
+      >
+        <div class="w-full md:w-3/4">
+          <h2
+            class="text-[#9dab9d] text-lg sm:text-xl font-medium uppercase mb-4"
+          >
+            Ihr Kontakt zu uns
+          </h2>
+          <p
+            class="text-[#9dab9d] text-base sm:text-lg md:text-xl lg:text-2xl font-medium mb-6 md:w-[85%]"
+          >
+            Wir freuen uns auf Ihre Terminvereinbarungen und Ihren Besuch in
+            unserer Praxis für Kieferorthopädie:
+          </p>
+
+          <div class="flex items-center mb-8">
+            <div class="p-4 rounded-full bg-[#d3e2cf] mr-2">
+              phone
+            </div>
+            <div class="ml-4 mt-5">
+              <h4 class="text-lg sm:text-xl md:text-2xl text-[#c19e78] mb-1">
+                02642 9931-270
+              </h4>
+              <p class="text-gray-800">
+                Während unserer Sprech- und Öffnungszeiten
+              </p>
+            </div>
+          </div>
+          <div class="ml-4 md:ml-16 mb-8">
+            <button variant="primary">Jetzt Termin online vereinbaren!</button>
+          </div>
+
+          <div class="flex items-center">
+            <div class="p-4 rounded-full bg-[#d3e2cf] mr-2">
+              <FaFax class="text-gray-500" />
+            </div>
+            <div class="ml-4">
+              <h4
+                class="text-lg sm:text-xl md:text-2xl text-[#9dab9d] font-medium mb-1"
+              >
+                02642 9931-274
+              </h4>
+              <p class="text-gray-800">Für Telefax-Dokumente</p>
+            </div>
+          </div>
+          <div class="flex items-start my-8">
+            <div class="p-4 rounded-full bg-[#d3e2cf] mr-2">
+              <FaEnvelope class="text-gray-500" />
+            </div>
+            <div class="ml-4">
+              <h4 class="text-lg sm:text-xl md:text-2xl text-[#c19e78] mb-1">
+                praxis@kfo-remagen-sinzig.de
+              </h4>
+              <p class="text-gray-800">
+                Für die schriftliche Korrespondenz mit uns per E-Mail.
+              </p>
+            </div>
+          </div>
+          <h3
+            class="text-[#9dab9d] text-lg sm:text-xl font-medium uppercase mb-4"
+          >
+            So finden Sie uns
+          </h3>
+          <p class="text-gray-800 md:w-[85%] mb-6">
+            Sie finden unsere Praxis in fußläufiger Entfernung zum Remagener
+            Bahnhof in der Karmeliterstraße. Entsprechend sind wir sowohl mit
+            öffentlichen Verkehrsmitteln als auch mit dem Auto gut erreichbar.
+            Parken Sie bequem und kostenlos direkt vor der Praxis.
+          </p>
+          <div class="flex items-center">
+            <div class="p-4 rounded-full bg-[#d3e2cf] mr-2">
+              <FaMapMarkerAlt class="text-gray-500" />
+            </div>
+            <div class="ml-2">
+              <h3
+                class="text-[#9dab9d] text-lg sm:text-xl font-medium uppercase mb-1"
+              >
+                Orthodontics Remagen Sinzig
+              </h3>
+              <p class="text-[#c19e78] text-base sm:text-lg font-medium">
+                Dr. Franziska Kroll & Dr. Miriam Vieweg
+              </p>
+              <p class="text-gray-900">Karmeliterstraße 11</p>
+              <p class="text-gray-900">53424 Remagen</p>
             </div>
           </div>
         </div>
-      </section>
 
+        <div
+          class="flex flex-col items-center md:items-start md:space-y-6 w-full md:w-1/4"
+        >
+          <div class="mb-4 md:mb-0">
+            <img src="/Images/ToothLogo.png" class="block w-full max-w-48" />
+          </div>
+          <h3 class="text-[#9dab9d] text-lg sm:text-xl uppercase mb-4">
+            Öffnungszeiten
+          </h3>
+          <div class="mb-6">
+            <p class="text-[#c19e78] text-lg sm:text-xl mb-4">
+              Montag bis Donnerstag
+            </p>
+            <p class="text-[#9dab9d] text-base sm:text-lg font-medium">
+              08:15 – 12:15 Uhr
+            </p>
+            <p class="text-[#9dab9d] text-base sm:text-lg font-medium">
+              13:15 – 17:45 Uhr
+            </p>
+            <p class="text-[#c19e78] text-lg sm:text-xl mt-3">Freitag</p>
+            <p class="text-[#9dab9d] font-medium text-base sm:text-lg">
+              nach Vereinbarung
+            </p>
+          </div>
 
+          <div class="mb-4 md:mb-0">
+            <img src="/Images/sticker1.png" class="block w-full max-w-72" />
+          </div>
+          <div class="mb-4 md:mb-0">
+            <img src="/Images/sticker2" class="block w-full max-w-56" />
+          </div>
+        </div>
+      </div>
+    </section>
   </body>
 </html>
